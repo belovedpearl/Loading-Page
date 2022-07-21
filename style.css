@@ -1,0 +1,50 @@
+.bigcontainer{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    color: antiquewhite;
+    overflow: hidden;
+    font-weight: 600;
+}
+.time-c{
+    display: flex;
+}
+
+.time-c div{
+    padding: 10px;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.input-button{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    max-width: 600px;
+}
+input{
+    padding: 10px;
+    margin: 2px;
+    font-weight: bold;
+    position: relative;
+    white-space: nowrap;
+    cursor: cell;
+}
+button{
+    position: relative;
+    padding: 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: progress;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: beige;
+}
